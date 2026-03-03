@@ -257,7 +257,12 @@ label #cancel{
   background: #e67207;
   color: #ffffff;
 }
-
+.wrapper .wos:hover,
+.wrapper .wos:hover .tooltip,
+.wrapper .wos:hover .tooltip::before {
+  background: #e67207;
+  color: #ffffff;
+}
 .wrapper .rg:hover,
 .wrapper .rg:hover .tooltip,
 .wrapper .rg:hover .tooltip::before {
@@ -444,4 +449,5 @@ height:128px;
   display: flex;
   justify-content:  space-around;
 }
+
 
