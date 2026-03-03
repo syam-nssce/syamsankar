@@ -169,10 +169,10 @@ label #cancel{
   position: relative;
   
   background: #ffffff;
-  border-radius: 80%;
+  border-radius: 50%;
   /* padding: 15px; */
   /* margin:10px; */
-  width: 80px;
+  width: 60px;
   height: 60px;
   font-size: 18px;
   display: flex;
@@ -449,6 +449,7 @@ height:128px;
   display: flex;
   justify-content:  space-around;
 }
+
 
 
 
