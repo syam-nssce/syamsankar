@@ -161,7 +161,9 @@ label #cancel{
 .wrapper {
   display: flex;
   list-style: none;
-  padding-left: none;
+  gap: 12px;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .wrapper .icon {
@@ -219,7 +221,8 @@ label #cancel{
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  float:left;
+  display:block;
+
 
 }
 
@@ -449,6 +452,7 @@ height:128px;
   display: flex;
   justify-content:  space-around;
 }
+
 
 
 
