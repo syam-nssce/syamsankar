@@ -160,12 +160,8 @@ label #cancel{
 
 .wrapper {
   display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  gap: 12px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding-left: none;
 }
 
 .wrapper .icon {
@@ -220,11 +216,10 @@ label #cancel{
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .iconimage{
- border-radius: 50%;
+  border-radius: 50%;
   width: 60px;
   height: 60px;
-  display:block;
-
+  float:left;
 
 }
 
@@ -262,12 +257,7 @@ label #cancel{
   background: #e67207;
   color: #ffffff;
 }
-.wrapper .wos:hover,
-.wrapper .wos:hover .tooltip,
-.wrapper .wos:hover .tooltip::before {
-  background: #e67207;
-  color: #ffffff;
-}
+
 .wrapper .rg:hover,
 .wrapper .rg:hover .tooltip,
 .wrapper .rg:hover .tooltip::before {
@@ -282,9 +272,7 @@ label #cancel{
   color: #ffffff;
 }
 
-.wrapper ld{
-  display: inline-flex;
-}
+
 
 /* icon end */
 
@@ -456,12 +444,4 @@ height:128px;
   display: flex;
   justify-content:  space-around;
 }
-
-
-
-
-
-
-
-
 
